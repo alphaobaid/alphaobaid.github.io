@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    line-height: 1;
+    font-family: Lato, sans-serif;
+}
+
+img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+nav-bar,
+footer,
+header {
+    display: block;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Assets/Images/background-1.jpg);
+    background-size: cover;
+}
+
+nav {
+    margin: 0;
+    display: flex;
+}
+
+nav ul.nav-bar {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 3.5rem 2rem 2rem 0px;
+}
+
+ul.nav-bar li.nav-bar-right {
+    float: right;
+}
+
+ul.nav-bar li {
+    list-style: none;
+    float: left;
+}
+
+ul.nav-bar li a {
+    padding: .5rem 2rem;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #eee;
+    display: block;
+    font-weight: 500;
+}
+
+.logo-top {
+    padding: 20px 20px;
+    width: 100px;
+    height: 100px;
+}
+
+img.logo {
+    box-shadow: 0px 0px 10px 10px #888888;
+}
+
+.nav-menu-container {
+    width: 85%;
+}
+
+ul.nav-bar li a:hover {
+    background-color: #F5F5DC;
+    color: #111;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+.heading-big {
+    width: 50%;
+    padding: 2em;
+    color: lavender;
+}
